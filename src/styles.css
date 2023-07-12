@@ -1,1 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
+@import '@angular/material/prebuilt-themes/indigo-pink.css';
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+.text-center {
+    text-align: center;
+}
+.full-width {
+    width: 100%;
+}
+.bootstrap-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.form-container {
+    
+    box-shadow: 0 0 10px rgba(242, 71, 27, 0.3);
+    padding: 20px;
+    border-radius: 4px;
+}
