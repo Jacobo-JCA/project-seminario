@@ -61,7 +61,7 @@ h2 span {
 }
 
 /*-------------------program*/
-.contenido {
+.content {
     
     padding-left: 100px;
     padding-top: 20px;
@@ -87,4 +87,22 @@ h2 span {
 .article-item strong {
     display: block;
 }
+/*---------------imagenes de contenedor*/
+.image-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .image-container img {
+    
+    margin-right: 10px; /* Espacio entre las imágenes */
+  }
+  .image-container {
+    padding-top: 20px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
   

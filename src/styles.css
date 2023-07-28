@@ -19,8 +19,12 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     height: 100vh;
 }
 .form-container {
-    
+
     box-shadow: 0 0 10px rgba(242, 71, 27, 0.3);
     padding: 20px;
     border-radius: 4px;
 }
+.example-spacer {
+  flex: 1 1 auto;
+}
+

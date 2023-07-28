@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 
+
 import { FormsModule } from '@angular/forms';
 import { MatInputModule } from '@angular/material/input';
 import { MatToolbarModule } from '@angular/material/toolbar';
@@ -11,6 +12,7 @@ import { MatDividerModule } from '@angular/material/divider';
 import { MatButtonModule } from '@angular/material/button';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { AuthComponent } from './auth/auth.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 
@@ -27,7 +29,8 @@ import { AuthComponent } from './auth/auth.component';
     MatToolbarModule,
     MatIconModule,
     MatSidenavModule,
-    MatDividerModule
+    MatDividerModule,
+    HttpClientModule
 
 
   ]
